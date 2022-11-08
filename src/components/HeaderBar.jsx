@@ -16,9 +16,6 @@ const Heading = styled(Typography)`
 `;
 
 const HeaderBar = ({ open, handleDrawer }) => {
-  // const logo =
-  // "https://seeklogo.com/images/G/google-keep-logo-0BC92EBBBD-seeklogo.com.png";
-
   return (
     <Header open={open}>
       <Toolbar>
